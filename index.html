@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5f0">
+  <title>SafeHer — Your safety, within reach</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="SafeHer home"><span class="brand-mark">✳</span> safe<span>her</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#tools">Safety tools</a>
+      <a href="#tips">Everyday tips</a>
+      <a href="#help">Get help</a>
+    </nav>
+    <a class="header-help" href="#help">Help & support <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> A little more prepared, wherever you go</p>
+        <h1>Your safety.<br><em>Within reach.</em></h1>
+        <p class="intro">Simple tools and thoughtful reminders to help you feel more confident on the move. You deserve to feel safe, supported, and in control.</p>
+        <a class="button button-dark" href="#tools">Explore safety tools <span aria-hidden="true">↓</span></a>
+        <p class="gentle-note">Take what helps. Leave what doesn’t. Your safety is never your fault.</p>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a woman walking confidently">
+        <div class="sun"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-label label-top">LOOK OUT FOR EACH OTHER <span>✳</span></div>
+        <div class="figure"><div class="head"></div><div class="hair"></div><div class="body"></div><div class="arm arm-left"></div><div class="arm arm-right"></div><div class="leg leg-left"></div><div class="leg leg-right"></div><div class="bag"></div></div>
+        <div class="art-label label-bottom"><span class="sparkle">✦</span> YOU ARE NOT ALONE</div>
+      </div>
+    </section>
+
+    <section class="tools-section" id="tools">
+      <div class="section-heading">
+        <div><p class="eyebrow">A FEW USEFUL THINGS</p><h2>Tools for the moment</h2></div>
+        <p>Keep helpful options close. These tools work from your device and never send anything without your action.</p>
+      </div>
+      <div class="tool-grid">
+        <article class="tool-card emergency-card">
+          <div class="tool-icon icon-red">↗</div><p class="card-kicker">NEED URGENT HELP?</p>
+          <h3>Call local emergency services</h3>
+          <p>Enter the emergency number where you are. When you tap call, your phone will open its dialer.</p>
+          <label class="field-label" for="emergency-number">Emergency number</label>
+          <div class="call-row"><input id="emergency-number" type="tel" inputmode="tel" placeholder="e.g. 112" autocomplete="tel" aria-label="Local emergency phone number"><button id="call-button" class="button button-red" type="button">Call now <span>↗</span></button></div>
+          <p class="small-note">This page does not contact emergency services by itself.</p>
+        </article>
+        <article class="tool-card location-card">
+          <div class="tool-icon icon-lilac">⌖</div><p class="card-kicker">LET SOMEONE KNOW</p>
+          <h3>Share your location</h3>
+          <p>Get a map link for your current location, then choose how you want to share it.</p>
+          <button id="location-button" class="button button-outline" type="button">Get location link <span>→</span></button>
+          <p id="location-status" class="small-note" role="status" aria-live="polite">Your browser will ask before accessing location.</p>
+        </article>
+        <article class="tool-card plan-card">
+          <div class="tool-icon icon-yellow">✳</div><p class="card-kicker">A PLAN THAT FITS YOU</p>
+          <h3>Make a quick check-in plan</h3>
+          <p>Before you head out, pick a person you trust and agree when you’ll check in.</p>
+          <a class="text-link" href="#tips">See a simple checklist <span>→</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="tips-section" id="tips">
+      <div class="tips-heading"><p class="eyebrow">SMALL STEPS, YOUR WAY</p><h2>Everyday confidence</h2><p>There’s no single right way to stay safe. Choose ideas that feel useful for you.</p></div>
+      <div class="tips-list">
+        <article class="tip"><span class="tip-num">01</span><div><h3>Share your plan</h3><p>Let someone you trust know where you’re going and when you expect to arrive.</p></div><span class="tip-symbol">↗</span></article>
+        <article class="tip"><span class="tip-num">02</span><div><h3>Keep your phone ready</h3><p>Charge it before you leave, and save important contacts where you can reach them quickly.</p></div><span class="tip-symbol">⌁</span></article>
+        <article class="tip"><span class="tip-num">03</span><div><h3>Trust your instincts</h3><p>If a situation feels uncomfortable, it’s okay to leave, ask for help, or change your plan.</p></div><span class="tip-symbol">✳</span></article>
+        <article class="tip"><span class="tip-num">04</span><div><h3>Look out for one another</h3><p>Check in with friends, and ask if someone nearby would like support.</p></div><span class="tip-symbol">♡</span></article>
+      </div>
+    </section>
+
+    <section class="support-banner" id="help"><div class="support-icon">♡</div><div><p class="eyebrow">SUPPORT IS HERE</p><h2>You don’t have to figure it out alone.</h2><p>If you’re in immediate danger, contact local emergency services or someone you trust. For ongoing support, look for a women’s support organisation in your area.</p></div><a class="button button-dark" href="#tools">Use safety tools <span>→</span></a></section>
+  </main>
+
+  <footer><a class="brand" href="#home"><span class="brand-mark">✳</span> safe<span>her</span></a><p>Made with care. Your safety is never your fault.</p><a href="#home">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
